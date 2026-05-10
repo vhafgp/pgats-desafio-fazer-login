@@ -1,7 +1,7 @@
 const usuarios = [
-    { id: 1, nome: 'Frodo Bolseiro',    email: 'frodo@condado.com', senha: 'senhaCerta123', expirado: false },
-    { id: 2, nome: 'Boromir de Gondor', email: 'boromir@gondor.com', senha: 'senhaCerta123', expirado: true  },
-    { id: 3, nome: 'Aragorn Elessar',   email: 'aragorn@gondor.com', senha: 'outraSenha456', expirado: false }
+    { id: 1, nome: 'Frodo Bolseiro',    email: 'frodo@condado.com', senha: 'portadorDoAnel123',   expirado: false },
+    { id: 2, nome: 'Boromir de Gondor', email: 'boromir@gondor.com', senha: 'filhoDeDenethor123',  expirado: true  },
+    { id: 3, nome: 'Aragorn Elessar',   email: 'aragorn@gondor.com', senha: 'passoLargo456',       expirado: false }
 ]
 
 export function fazerLogin(email, senha) {
